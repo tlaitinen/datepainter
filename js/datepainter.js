@@ -395,7 +395,7 @@
 
         _isVisibleDate: function(date) {
             var firstDate = this._getDate(1, 1),
-                lastDate = this._getDate(5,7);
+                lastDate = this._getDate(6,7);
             return (date.diff(firstDate,'days') >= 0 && date.diff(lastDate,'days') <= 0);
 
         },
